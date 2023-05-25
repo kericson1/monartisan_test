@@ -86,7 +86,22 @@ npm run dev
 ```
 ## Importer la base de données
 
-Voir dossier 'base de données'
+Voir dossier 'base_de_donnees'
+```bash
+monartisan_test.sql
+```
+
+## Bien configurer le fichier '.env'
+
+Voir dossier 'base_de_donnees'
+```html
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=monartisan_test
+DB_USERNAME=kericson
+DB_PASSWORD=test
+```
 
 ## Lancer le serveur
 
