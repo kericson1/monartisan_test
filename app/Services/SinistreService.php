@@ -61,4 +61,8 @@ class SinistreService
     public function getAll(){
         return $this->sinistreRepository->getAllsinistre();
     }
+
+    public function getSinistreById($id){
+        return $this->sinistreRepository->getSinistreById($id);
+    }
 }

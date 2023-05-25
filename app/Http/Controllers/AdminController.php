@@ -62,4 +62,18 @@ class AdminController extends Controller
         }
         return view('contact', ["reponse" => $result]);
     }
+
+    public function sinistreDetails($id){
+        $result = ['status' => 200];
+        try{
+            $result['sinistre'] = $this->sinistreService->getSinistreById($id);
+        }catch(Exception $e){
+            $result = [
+                'status' => 500,
+                'error' => $e->getMessage(),
+            ];
+        }
+        return view('sinistre_details', ["reponse" => $result]);
+        // getSinistreById
+    }
 }

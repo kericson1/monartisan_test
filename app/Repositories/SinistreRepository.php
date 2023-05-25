@@ -38,4 +38,8 @@ class SinistreRepository
     public function getAllsinistre(){
         return $this->sinistre->get();
     }
+
+    public function getSinistreById($id){
+        return $this->sinistre->findOrFail($id);
+    }
 }

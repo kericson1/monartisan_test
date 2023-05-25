@@ -19,7 +19,10 @@
                                     <th>Police</th>
                                     <th>Nom</th>
                                     <th>Lieu</th>
+                                    <th>Nature</th>
+                                    <th>Date</th>
                                     <th>Téléphone</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -29,7 +32,12 @@
                                         <td>{{$sinistre->police}}</td>
                                         <td>{{$sinistre->nom}}</td>
                                         <td>{{$sinistre->lieu}}</td>
+                                        <td>{{$sinistre->nature}}</td>
+                                        <td>{{$sinistre->date}}</td>
                                         <td>{{$sinistre->contact1}}</td>
+                                        <td>
+                                            <a href="{{url('/dashboard/sinistre', $sinistre->id)}}" class="btn btn-success btn-sm">Voir</a>
+                                        </td>
                                     </tr>
                                 @endforeach
 
