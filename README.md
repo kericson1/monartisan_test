@@ -72,3 +72,17 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 ```bash
 git clone 
 ```
+
+## Intallation des dependances
+
+```bash
+composer install 
+```
+Dependances nodejs
+
+```bash
+npm install 
+```
+```bash
+npm run dev 
+```
