@@ -87,3 +87,9 @@ npm run dev
 ## Importer la base de données
 
 Voir dossier 'base de données'
+
+## Lancer le serveur
+
+```bash
+php artisan serve
+```
