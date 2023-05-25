@@ -93,3 +93,9 @@ Voir dossier 'base de données'
 ```bash
 php artisan serve
 ```
+
+## Pour voir le tableau de bord
+Il faut saisir la route: "/dashboard"
+```bash
+/dashboard
+```
