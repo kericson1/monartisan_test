@@ -98,9 +98,9 @@ Voir dossier 'base_de_donnees'
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=monartisan_test
-DB_USERNAME=kericson
-DB_PASSWORD=test
+DB_DATABASE=nom_base_de_donnees
+DB_USERNAME=user_name
+DB_PASSWORD=password
 ```
 
 ## Lancer le serveur
