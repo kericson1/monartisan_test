@@ -70,7 +70,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 ## Cloner le depot git
 
 ```bash
-git clone 
+git clone https://github.com/kericson1/monartisan_test.git
 ```
 
 ## Intallation des dependances
