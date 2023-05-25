@@ -82,7 +82,8 @@ Dependances nodejs
 
 ```bash
 npm install 
+npm run dev
 ```
-```bash
-npm run dev 
-```
+## Importer la base de données
+
+Voir dossier 'base de données'
