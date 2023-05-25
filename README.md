@@ -78,7 +78,7 @@ git clone https://github.com/kericson1/monartisan_test.git
 ```bash
 composer install 
 ```
-Dependances nodejs
+Dependances nodejs Options
 
 ```bash
 npm install 
